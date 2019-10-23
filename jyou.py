@@ -1,0 +1,5 @@
+a = int(input())
+b = int(input())
+diff = abs(a-b)
+res = min(diff, 10 - diff)
+print(res)

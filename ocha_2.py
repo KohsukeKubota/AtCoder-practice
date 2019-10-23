@@ -1,0 +1,5 @@
+A, B = map(int, input().split())
+print(B/A)
+print(-(-B//A))
+print(round(B/A))
+print(B//A)
